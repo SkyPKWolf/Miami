@@ -58,9 +58,14 @@
   }
 
   &__name {
+    display: inline-block;
     font-weight: bold;
     color: $main-color;
     text-decoration: none;
+    transition: 0.3s transform linear;
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   &__photo {

@@ -17,8 +17,13 @@
   }
 
   &__estate {
+    display: inline-block;
     text-decoration: none;
     color: $main-color;
+    transition: 0.3s transform linear;
+    &:hover {
+      transform: scale(1.05);
+    }
   }
   &__wrapper {
     display: flex;
